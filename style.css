@@ -1,0 +1,10 @@
+main{
+    max-width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div{
+    background-color: aqua;
+    color: red;
+}

@@ -19,11 +19,12 @@ function init(){
 }
 
 function ciklus(list){
+    let tart = document.querySelector('article');
     for(let i = 0; i < list.length; i++) {
         const div = document.createElement('div');
         const h2 = document.createElement('h2');
         const p = document.createElement('p');
-        document.body.appendChild(div);
+        tart.appendChild(div);
         div.appendChild(h2);
         div.appendChild(p);
         h2.appendChild(document.createTextNode(list[i].nev));
